@@ -1,7 +1,7 @@
-ticket_number=0
+$ticket_number=0
 def take_a_number (deli)
-  ticket_number +=1
-  deli.push(ticket_number)
+  $ticket_number +=1
+  deli.push($ticket_number)
   number_in_line = deli[-1]
   puts "Welcome, You are number #{number_in_line} in line."
 end
