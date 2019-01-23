@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def take_a_number (deli, name)
   deli.push(name)
   number_in_line = deli.count
