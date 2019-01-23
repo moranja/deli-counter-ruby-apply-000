@@ -1,7 +1,7 @@
 $ticket_number=0
 def take_a_number (deli)
   $ticket_number +=1
-  if $ticket_number = 100
+  if $ticket_number == 100
     $ticket_number = 0
   end
   deli.push($ticket_number)
